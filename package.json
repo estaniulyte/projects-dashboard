@@ -4,7 +4,10 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview --port 4173",
+    "add-dist-subtree": "git add dist && git commit -m 'adding dist subtree'",
+    "deploy-to-ghpages": "git subtree push --prefix dist origin gh-pages",
+    "github-pages": "vite build && yarn add-dist-subtree && yarn deploy-to-ghpages"
   },
   "dependencies": {
     "vue": "^2.7.7",

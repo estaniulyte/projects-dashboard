@@ -11,15 +11,11 @@ const routes = [
     path: '/',
     name: "Home",
     component: HomePage,
-  },
-  {
-    path: '*',
-    redirect: '/'
   }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  // mode: 'history',
   routes
 })
 
