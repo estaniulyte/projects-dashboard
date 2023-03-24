@@ -10,10 +10,15 @@
     "github-pages": "vite build && yarn add-dist-subtree && yarn deploy-to-ghpages"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.5",
+    "@fullcalendar/vue": "^6.1.5",
+    "@fullcalendar/daygrid": "^6.1.4",
+    "@fullcalendar/interaction": "^6.1.4",
+    "@fullcalendar/timegrid": "^6.1.4",
+    "sass": "~1.32.0",
     "vue": "^2.7.7",
     "vue-router": "^3.6.5",
-    "vuetify": "^2.6.0",
-    "sass": "~1.32.0"
+    "vuetify": "^2.6.0"
   },
   "devDependencies": {
     "@vitejs/plugin-legacy": "^2.0.0",
