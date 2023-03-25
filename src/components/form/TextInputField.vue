@@ -12,6 +12,7 @@
       single-line
       justify-sm
       rounded
+      clearable
     />
   </div>
 </template>
@@ -27,7 +28,7 @@ export default {
       default: false
     },
     rules: [],
-    value: null
+    value: null,
   },
   data () {
     return {
