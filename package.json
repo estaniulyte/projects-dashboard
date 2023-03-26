@@ -11,10 +11,11 @@
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.5",
-    "@fullcalendar/vue": "^6.1.5",
     "@fullcalendar/daygrid": "^6.1.4",
     "@fullcalendar/interaction": "^6.1.4",
     "@fullcalendar/timegrid": "^6.1.4",
+    "@fullcalendar/vue": "^6.1.5",
+    "pinia": "^2.0.33",
     "sass": "~1.32.0",
     "vue": "^2.7.7",
     "vue-router": "^3.6.5",
